@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B3FBC4DE2959BE18003A1D1B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBC4DD2959BE18003A1D1B /* main.swift */; };
+		B3FBC4E52959C6D9003A1D1B /* tovar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBC4E42959C6D9003A1D1B /* tovar.swift */; };
+		B3FBC4E72959C712003A1D1B /* autoshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBC4E62959C712003A1D1B /* autoshop.swift */; };
+		B3FBC4E92959C72B003A1D1B /* dressshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBC4E82959C72B003A1D1B /* dressshop.swift */; };
+		B3FBC4EB2959C73F003A1D1B /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBC4EA2959C73F003A1D1B /* shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		B3FBC4DA2959BE18003A1D1B /* HW 2-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 2-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FBC4DD2959BE18003A1D1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3FBC4E42959C6D9003A1D1B /* tovar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tovar.swift; sourceTree = "<group>"; };
+		B3FBC4E62959C712003A1D1B /* autoshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoshop.swift; sourceTree = "<group>"; };
+		B3FBC4E82959C72B003A1D1B /* dressshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dressshop.swift; sourceTree = "<group>"; };
+		B3FBC4EA2959C73F003A1D1B /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				B3FBC4DD2959BE18003A1D1B /* main.swift */,
+				B3FBC4EA2959C73F003A1D1B /* shop.swift */,
+				B3FBC4E82959C72B003A1D1B /* dressshop.swift */,
+				B3FBC4E62959C712003A1D1B /* autoshop.swift */,
+				B3FBC4E42959C6D9003A1D1B /* tovar.swift */,
 			);
 			path = "HW 2-2";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FBC4EB2959C73F003A1D1B /* shop.swift in Sources */,
+				B3FBC4E52959C6D9003A1D1B /* tovar.swift in Sources */,
+				B3FBC4E92959C72B003A1D1B /* dressshop.swift in Sources */,
 				B3FBC4DE2959BE18003A1D1B /* main.swift in Sources */,
+				B3FBC4E72959C712003A1D1B /* autoshop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
