@@ -7,12 +7,15 @@
 
 import Foundation
 class AutoShop: Shop{
+    var country: String
     var tovar: [Tovar] = [Tovar]()
-    override init(name: String, sqaere: String, adress: String, time: String) {
+    init(country:String, name: String, sqaere: String, adress: String, time: String) {
+        self.country = country
         super.init(name: name, sqaere: sqaere, adress: adress, time: time)
+    
     }
     override func showInfo() {
-        print("название магазина - \(name), площадь магазина \(sqaere)м.кв, адрес магазина \(adress), время работы \(time)")
+        print("название магазина - \(name), площадь магазина \(sqaere)м.кв, адрес магазина - \(adress), время работы - \(time), страна производитель -\(country)")
         for i in tovar{
             print("\(i.name), \(i.price), \(i.amount)")
         }

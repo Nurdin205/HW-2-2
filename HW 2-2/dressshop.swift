@@ -8,9 +8,13 @@
 import Foundation
 
 class DressShop: Shop{
+    var brend: String
     var tovar: [Tovar] = [Tovar]()
-    override init(name: String, sqaere: String, adress: String, time: String) {
+     init(brend: String,  name: String, sqaere: String, adress: String, time: String) {
+         self.brend = brend
         super.init(name: name, sqaere: sqaere, adress: adress, time: time)
+       
+        
     }
     override func showInfo() {
         print("название магазина - \(name), площадь магазина \(sqaere)м.кв , адрес магаина \(adress), время работы \(time)")
